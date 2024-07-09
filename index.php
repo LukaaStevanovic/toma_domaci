@@ -18,3 +18,5 @@ if($trenutno_vreme >= 5 && $trenutno_vreme < 12){
 }elseif($trenutno_vreme >= 12 && $trenutno_vreme < 20){
     echo "Evo ga podne";
 }else{echo "Sad je noc";}
+
+
