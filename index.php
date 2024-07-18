@@ -1,22 +1,16 @@
-<?php
 
-//zadatak 1. #4 - Conditional statement
-/*$ime = "administrator";
-$lozinka = "mojaSifraJeSigurna";
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Document</title>
+    </head>
 
-if(strtolower($ime) && $lozinka == "mojaSifraJeSigurna"){
-    echo "Dobrodosao administratore";
-}*/
-
-
-//zadatak 2. #4 - Conditional statement
-// jutro 5-12; podne 12-20; noc 20-5
-$trenutno_vreme = date("H");
-
-if($trenutno_vreme >= 5 && $trenutno_vreme < 12){
-    echo "Jutro jee";
-}elseif($trenutno_vreme >= 12 && $trenutno_vreme < 20){
-    echo "Evo ga podne";
-}else{echo "Sad je noc";}
+    <body>
+        <form method="POST" action="registracija.php">
+            <input type="text" name="ime" placeholder="Unesite ime">
+            <button>Proveri</button>
+        </form>
+    </body>
+</html>
 
 
