@@ -14,4 +14,4 @@
         }
         echo "PDV iznosi $cena_pdv";
     }
-    izracunaj_pdv("steva");
+    izracunaj_pdv(100);
